@@ -10,6 +10,3 @@ script:
   - node -v
   - npm -v
   - echo "testing"
-
-
-
