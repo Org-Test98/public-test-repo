@@ -2,11 +2,3 @@ jobs:
   include:
     - os: osx
       osx_image: xcode12.5
-      script: true
-      deploy:
-        provider: gcs
-        key_file: gcs-access.json
-        bucket: gcs-test-bucket-qasim
-        edge: true
-        on:
-          all_branches: true
